@@ -1,0 +1,167 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header_desert4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  min-height:100%;    
+}
+
+.topnav {
+  width: 100%;
+  height: 70px;
+  background-color: #002251;
+}
+
+.main {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #002251;
+   color: white;
+   text-align: center;
+  
+}
+
+#cevro_logo {
+  height: 60px;
+  margin: 4px 0px 5px 0px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  color: #002251;
+  font-weight: 500;
+  margin-top: 10px;
+  text-shadow: 1.5px 1.5px white;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8em;
+  color: #002251;
+  font-weight: 500;
+  margin: 0px 0px 0px 0px;
+  text-shadow: 1px 1px white;
+}
+
+hr {
+    margin: 20px auto;
+    color: #002251;
+    border: 3px solid #002251;
+    max-width: 190px;
+    opacity: 1;
+    margin-bottom: 50px; 
+}
+
+p {
+  font-size: 1em;
+  color: black;
+  font-weight: 500;
+  margin: 15px 20px 40px 20px;
+}
+
+.perex {
+  font-size: 1.2em;
+  color: black;
+  font-weight: bolder;
+}
+
+#footer_link {
+  text-decoration: none;
+  color: white;
+}
+
+#p_footer {
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  margin: 10px 0px 5px 0px;
+}
+
+#emp_logo {
+  max-width: 70%;
+  max-height: 70%;
+  transition: all 0.3s;
+}
+
+#pcmr_logo {
+  max-width: 85%;
+  max-height: 85%;
+  transition: all 0.3s;
+}
+
+#pcmr_logo:hover, #emp_logo:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 750px;
+}
+
+.btn, .btn-primary, input[type=submit] {
+  text-decoration: none;
+  color: white;
+  background-color: #ca8964;
+  margin: 15px 15px 40px 15px;
+  border-color: #ca8964;
+  font-weight: 500;
+  max-width: 250px;
+  min-width: 150px;
+  min-height: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+
+.btn:hover, .btn-primary:hover, input[type=submit]:hover {
+  background-color: #002251;
+  border-color: #002251;
+}
+
+h2, .btn, .btn-primary, input[type=submit] {
+  display: inline-block;
+}
+
+#in-text-link {
+  text-decoration: underline;
+  color: black;
+}
+
+.buffer {
+  height: 5em;
+}
+
+#subscribe_label {
+  margin-bottom: 15px;
+}
+
+input {
+  max-width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*opacity for background
+border or some design to submit and support?*/
